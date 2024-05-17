@@ -1,0 +1,32 @@
+.tall-section {
+    height: 1000px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.dropdown-menu {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.dropdown-menu>li>a {
+    text-align: center;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .tall-section {
+        width: 50%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
